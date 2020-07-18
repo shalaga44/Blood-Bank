@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph"
+    app:startDestination="@id/mainLogInFragment">
+
+    <fragment
+        android:id="@+id/mainLogInFragment"
+        android:name="com.shalaga44.bloodbank.ui.login.MainLogInFragment"
+        android:label="Main Log In"
+        tools:layout="@layout/fragment_main_log_in">
+        <action
+            android:id="@+id/action_mainLogInFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_mainLogInFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.shalaga44.bloodbank.ui.login.LogInFragment"
+        android:label="Log In"
+        tools:layout="@layout/fragment_log_in" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.shalaga44.bloodbank.ui.login.RegistrationFragment"
+        android:label="Registration"
+        tools:layout="@layout/fragment_registration">
+        <action
+            android:id="@+id/action_registrationFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.shalaga44.bloodbank.ui.login.ConfirmationFragment"
+        android:label="Confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+</navigation>
