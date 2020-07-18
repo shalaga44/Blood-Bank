@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainLogInFragment"
         android:name="com.shalaga44.bloodbank.ui.login.MainLogInFragment"
-        android:label="Main Log In"
+        android:label="Blood Bank"
         tools:layout="@layout/fragment_main_log_in">
         <action
             android:id="@+id/action_mainLogInFragment_to_logInFragment"
