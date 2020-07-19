@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="primaryColor">#ed5050</color>
+    <color name="primaryLightColor">#ff837c</color>
+    <color name="primaryDarkColor">#b41227</color>
+    <color name="secondaryColor">#dac503</color>
+    <color name="secondaryLightColor">#fff84f</color>
+    <color name="secondaryDarkColor">#a49500</color>
+    <color name="primaryTextColor">#ffebee</color>
+    <color name="secondaryTextColor">#fff8e1</color>
+
+    <color name="surfaceColor">#ffffff</color>
+    <color name="onSurfaceLightColor">#EBEBEB</color>
+    <color name="onSurfaceColor">#F7F7F7</color>
+    <color name="onSurfaceDarkColor">#CACACA</color>
+
+
+
+
+    <color name="maleBlueColor">@android:color/holo_blue_bright</color>
+    <color name="femalePinkColor">#FF69B4</color>
+    <color name="onFemalePinkColor">#FFFFFF</color>
+
+
 </resources>
